@@ -1,6 +1,6 @@
 # Unity: Retrieve Data From TikTok
 
-From Unity retrieve TikTok data such as the number of followers, following, and friends.
+From Unity retrieve TikTok data such as the number of followers, following, likes and friends.
 
 ### Example calling the function when the script starts (the function must be async)
 
@@ -14,10 +14,12 @@ private async void Start() {
    int followers = tiktok.GetData( "followers" );
    int following = tiktok.GetData( "following" );
    int friends = tiktok.GetData( "friends" );
+   int likes = tiktok.GetData( "likes" );
 
    Debug.Log( $"Followers: {followers}" );
    Debug.Log( $"Following: {following}" );
    Debug.Log( $"Friends: {friends}" );
+   Debug.Log($"Likes: {likes}");
 
 }
 ```
