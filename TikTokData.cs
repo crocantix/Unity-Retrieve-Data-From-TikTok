@@ -63,6 +63,7 @@ public class TikTokData {
             if ( type == "followers" ) { strPattern = "followerCount"; }
             else if ( type == "following" ) {  strPattern = "followingCount"; }
             else if ( type == "friends" ) {  strPattern = "friendCount"; }
+            else if ( type == "likes" ) {  strPattern = "heartCount"; }
             else { return 0; }
 
             try {
