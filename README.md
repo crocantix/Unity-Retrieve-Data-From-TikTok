@@ -19,7 +19,7 @@ private async void Start() {
    Debug.Log( $"Followers: {followers}" );
    Debug.Log( $"Following: {following}" );
    Debug.Log( $"Friends: {friends}" );
-   Debug.Log($"Likes: {likes}");
+   Debug.Log( $"Likes: {likes}" );
 
 }
 ```
